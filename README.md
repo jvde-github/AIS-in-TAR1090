@@ -90,6 +90,6 @@ And then you have ships in TAR1090:
 
 For Docker, open a terminal in the docker 
 ```console
-sudo docker exec -it tar1090 /bin/bash``` and update `layersxxxxx.js` in `/usr/local/share/tar1090/html-webroot`. This step might have to be repeated every
+sudo docker exec -it tar1090 /bin/bash` and update `layersxxxxx.js` in `/usr/local/share/tar1090/html-webroot`. This step might have to be repeated every
 time the container is restarted.
 
