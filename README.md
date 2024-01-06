@@ -7,7 +7,7 @@ AIS-catcher provides the capability to produce GeoJSON data on its built-in webs
 ```console
 AIS-catcher -N 8100 geojson on
 ```
-Assuming your AIS-catcher server is running at 192.168.1.113, the data will be accessible at http://192.168.1.113:8100/geojson. This GeoJSON data can be effectively visualized using libraries like OpenLayers. Check out the index.html file in thhe codebase for a simple reference. To make it work with your specific setup, edit the line defining server_aiscatcher.
+Assuming your AIS-catcher server is running at 192.168.1.113, the data will be accessible at http://192.168.1.113:8100/geojson. This GeoJSON data can be effectively visualized using libraries like OpenLayers. Check out the `index.html` file in the codebase for a simple reference. To make it work with your specific setup, edit the line defining server_aiscatcher.
 
 ## 2. Integrating AIS Data with TAR1090:
 
