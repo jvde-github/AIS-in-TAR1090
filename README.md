@@ -13,7 +13,7 @@ Assuming your AIS-catcher server is running at 192.168.1.113, the data will be a
 
 Navigate to the directory that houses the tar1090 website files, typically located at /usr/local/share/tar1090/html.
     Locate the JavaScript file that starts with layers and has a .js extension (e.g., layersxxxxxxx.js).
-    At the end of this JavaScript file, just before the return layers_group; statement, insert the following code snippet. This code will add an additional styled layer in the world group:
+    At the end of this JavaScript file, right before the `return layers_group;` statement, insert the following code snippet. 
 ```js
         const aiscatcher_server = "http://192.168.1.113:8100"; # update with your server address
 
@@ -80,10 +80,9 @@ Navigate to the directory that houses the tar1090 website files, typically locat
         world.push(aiscatcher_overlay);
 ```
 
+This code will add an additional styled layer in the world group. **Note**: make sure you refresh the javascript files which are cached by default (I do that by opening layersxxxx.js in the browser and refreshing until I see the file with the code change). 
 
-Note: make sure you refresh the javascript files which are cahced by default (I do that by opening layersxxxx.js in the browser and refreshing). 
-
-And then you have ships in TAR1090:
+And then you have ships in tar1090:
 ![Screenshot from 2024-01-06 22-34-53](https://github.com/jvde-github/AIS-in-TAR1090/assets/52420030/2b715abf-64f5-4cc6-8f4b-30e8661e077c)
 
 ## 3. SDR-Enthusiasts Docker
