@@ -22,11 +22,9 @@ Navigate to the directory that houses the tar1090 website files, typically locat
             format: new ol.format.GeoJSON()
         });
 
-        function updateAIScatcher() {
-            aiscatcher_source.refresh();
-        }
-
+        function updateAIScatcher() { aiscatcher_source.refresh(); }
         setInterval(updateAIScatcher, 60000);
+
         const aiscatcher_mapping = {
             0: { size: [20, 20], offset: [120, 20], comment: 'CLASS_OTHER' },
             1: { size: [20, 20], offset: [120, 20], comment: 'CLASS_UNKNOWN' },
@@ -37,8 +35,8 @@ Navigate to the directory that houses the tar1090 website files, typically locat
             6: { size: [20, 20], offset: [80, 20], comment: 'CLASS_TANKER' },
             7: { size: [20, 20], offset: [100, 20], comment: 'CLASS_HIGHSPEED' },
             8: { size: [20, 20], offset: [140, 20], comment: 'CLASS_FISHING' },
-            9: { size: [20, 20], offset: [0, 20], comment: 'CLASS_PLANE' },
-            10: { size: [20, 20], offset: [0, 20], comment: 'CLASS_HELICOPTER' },
+            9: { size: [25, 25], offset: [0, 60], comment: 'CLASS_PLANE' },
+            10: { size: [25, 25], offset: [0, 85], comment: 'CLASS_HELICOPTER' },
             11: { size: [20, 20], offset: [20, 40], comment: 'CLASS_STATION' },
             12: { size: [20, 20], offset: [0, 40], comment: 'CLASS_ATON' },
             13: { size: [20, 20], offset: [40, 40], comment: 'CLASS_SARTEPIRB' }
