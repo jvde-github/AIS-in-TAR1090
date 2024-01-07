@@ -1,6 +1,6 @@
 # AIS-in-tar1090
 
-Through some creative manipulation, it is feasible to incorporate ship positions gathered by [AIS-catcher](https://github.com/jvde-github/AIS-catcher) into [tar1090](https://github.com/wiedehopf/tar1090), presenting both ships and planes in a unified display. However, it's important to note that this process can be somewhat cumbersome and should be undertaken cautiously, with appropriate backups in place. It's worth emphasizing that this is primarily a proof of concept rather than a production-ready solution, especially until tar1090 offers support for custom-defined GeoJSON overlays.
+Through some creative manipulation, it is feasible to incorporate ship positions gathered by [AIS-catcher](https://github.com/jvde-github/AIS-catcher) into [tar1090](https://github.com/wiedehopf/tar1090), presenting both ships and planes in a unified display. However, it's important to note that this process can be somewhat cumbersome and should be undertaken cautiously, with appropriate backups in place. It's worth emphasizing that this is primarily a proof of concept to demonstrate visualizing AIS-catcher's GeoJSON outpyut, rather than a solution to include AIS data in tar1090.
 
 ## 1. AIS-catcher Configuration:
 AIS-catcher provides the capability to produce GeoJSON data on its built-in webserver. Start AIS-catcher with the following command:
