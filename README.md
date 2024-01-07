@@ -15,7 +15,7 @@ Navigate to the directory that houses the tar1090 website files, typically locat
     Locate the JavaScript file that starts with layers and has a .js extension (e.g., layersxxxxxxx.js).
     At the end of this JavaScript file, right before the `return layers_group;` statement, insert the following code snippet. 
 ```js
-        const aiscatcher_server = "http://192.168.1.113:8100"; # update with your server address
+        const aiscatcher_server = "http://192.168.1.113:8100"; // update with your server address
 
         const aiscatcher_source = new ol.source.Vector({
             url: aiscatcher_server + '/geojson',
